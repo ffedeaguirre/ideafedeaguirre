@@ -43,16 +43,15 @@ h2{
     align-items: center;
     font-family: 'Koulen', cursive;
     text-decoration: none;
-    margin: 50px;
+    margin: 50px; 
 }
 main ul li a{
-    display: block;
-    text-decoration: none;
-    background-color: #2a2b2ad3; 
+    text-decoration: none; 
     color: white;
-    font-family: 'Oswald', sans-serif;
+    background-color: #2a2b2afb;
     font-size: 1.3rem;
     text-align: center;
+    filter: drop-shadow(5px 5px 5px black);
 } 
 .containMain{
     display: grid;

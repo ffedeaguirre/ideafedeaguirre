@@ -53,6 +53,9 @@ main ul li a{
     text-align: center;
     filter: drop-shadow(5px 5px 5px black);
 } 
+main ul li a:hover{
+    background-color: grey;
+}
 .containMain{
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -1,0 +1,22 @@
+footer{
+    .grupo1{
+        margin: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        .box1{
+            @extend %display2
+        }
+        .box2{
+            font-family: 'Oswald', sans-serif;
+            color: #c4c4c4;
+        }
+    }
+    .grupo2{
+        padding: 10px;
+        background-color: #353635;
+        @extend %display2;
+        font-size: 20px;
+        color: #ffffff;
+        font-family: 'Oswald', sans-serif;
+    }
+}

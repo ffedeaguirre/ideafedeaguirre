@@ -1,0 +1,22 @@
+
+
+.containCont{
+    background-color: $bg-footer;
+    margin: 60px;
+    padding: 40px;
+    filter: drop-shadow(5px 5px 5px black);
+    h3{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: #ffffff;
+    }
+    ul{
+        li{
+            list-style: none;
+            font-family: 'Oswald', sans-serif;
+            margin: 30px;
+            font-size: 30px;
+            color: #c4c4c4;
+        }
+    }
+}

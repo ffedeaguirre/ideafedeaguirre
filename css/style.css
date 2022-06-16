@@ -3,8 +3,189 @@ body {
 }
 
 .contCata {
+  padding: 15px;
   background-color: white;
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+
+header {
+  background-color: white;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+
+footer {
+  background-color: #2A2B2A;
+}
+
+.tituloPrincipal {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+.nombBurger {
+  margin: 20px;
+  padding: 1rem;
+  background: rgb(52, 52, 55);
+  background: linear-gradient(90deg, rgb(52, 52, 55) 0%, rgb(0, 0, 0) 50%, rgb(83, 88, 88) 100%);
+}
+.nombBurger a {
+  font-size: larger;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Koulen", cursive;
+}
+
+.iRinicio {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.iRinicio a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+}
+
+.navBar {
+  width: 80%;
+  margin: auto;
+  padding: 0;
+}
+.navBar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 30px;
+}
+.navBar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+}
+
+.navBar ul li:hover {
+  background-color: black;
+}
+
+.block-banner {
+  background-color: rgba(42, 43, 42, 0.6862745098);
+  flex-direction: row;
+}
+.block-banner img {
+  width: 1200px;
+  height: 400px;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.contenedorUbi {
+  margin: 20px;
+}
+.contenedorUbi iframe {
+  width: 900px;
+  border-radius: 5px;
+  filter: drop-shadow(5px 5px 5px black);
+}
+.contenedorUbi p {
+  text-align: center;
+}
+.contenedorUbi p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.containCont {
+  background-color: #2A2B2A;
+  margin: 60px;
+  padding: 40px;
+  filter: drop-shadow(5px 5px 5px black);
+}
+.containCont h3 {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+}
+.containCont ul li {
+  list-style: none;
+  font-family: "Oswald", sans-serif;
+  margin: 30px;
+  font-size: 30px;
+  color: #c4c4c4;
+}
+
+footer .grupo1 {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+footer .grupo1 .box2 {
+  font-family: "Oswald", sans-serif;
+  color: #c4c4c4;
+}
+footer .grupo2 {
+  padding: 10px;
+  background-color: #353635;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nombBurger, .cont-prin, .block-banner, .contenedorUbi, footer .grupo1 .box1, footer .grupo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Koulen", cursive;
+  font-size: 20px;
+}
+
+.containMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.nombBurger img {
+  height: auto;
+  width: auto;
+  max-height: 200px;
+  max-width: 350px;
+}
+.nombBurger a {
+  font-size: larger;
+}
+
+.nombBurger:hover {
+  margin: 15px;
+  background: rgba(52, 52, 55, 0.747);
+  background: linear-gradient(90deg, rgb(52, 52, 55) 0%, rgb(0, 0, 0) 50%, rgb(83, 88, 88) 100%);
+}
+
+.tituloSecundario {
+  text-align: center;
+  font-family: "Koulen", cursive;
+  color: rgba(255, 255, 255, 0.938);
 }
 
 /*# sourceMappingURL=style.css.map */

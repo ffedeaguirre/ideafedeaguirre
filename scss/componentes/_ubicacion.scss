@@ -1,0 +1,16 @@
+.contenedorUbi{
+    @extend %display2;
+    margin: 20px;
+    iframe{
+        width: 900px;
+        border-radius: 5px;
+        filter: drop-shadow(5px 5px 5px black);
+    }
+    p{
+        text-align: center;
+        a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}

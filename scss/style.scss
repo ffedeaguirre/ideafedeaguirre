@@ -1,2 +1,48 @@
 @import"./base/variables";
 @import"./componentes/pageBurg";
+@import"./componentes/navBar";
+@import"./componentes/banner";
+@import"./componentes/ubicacion";
+@import"./componentes/contacto";
+@import"./componentes/footer";
+@import"./base/extends";
+@import"./base/mixin";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+}
+
+.containMain{
+    @include contMain
+}
+
+.nombBurger{
+    img{
+        height: auto;
+        width: auto;
+        max-height: 200px;
+        max-width: 350px;
+    }
+    a{
+        font-size: larger;
+    }
+}
+.nombBurger:hover{
+    margin: 15px;
+    background: rgba(52, 52, 55, 0.747);
+    background: linear-gradient(90deg, rgba(52,52,55,1) 0%, rgba(0,0,0,1) 50%, rgba(83,88,88,1) 100%);
+}
+
+.tituloSecundario{
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    color: rgba(255, 255, 255, 0.938);
+}

@@ -1,7 +1,53 @@
+
 body{
     background-color: $bg-body;
 }
 .contCata{
+    padding: 15px;
     background-color: white;
     background-image: $bg-cont;
+}
+
+header{
+    background-color: white;
+    background-image: $bg-cont;
+    @extend %display;
+    position: relative;
+}
+
+footer{
+    background-color: $bg-footer;
+}
+
+.tituloPrincipal{
+    color: $color-titulo;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.nombBurger{
+    @extend %display2;
+    margin: 20px;
+    padding: 1rem;
+    background: rgb(52,52,55);
+    background: linear-gradient(90deg, rgba(52,52,55,1) 0%, rgba(0,0,0,1) 50%, rgba(83,88,88,1) 100%);
+    a{
+        font-size: larger;
+        text-decoration: none;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Koulen', cursive;
+    }
+}
+
+.iRinicio{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+    }
 }
